@@ -3,7 +3,7 @@
 from django import forms
 from django.contrib import admin
 from django.http import Http404, HttpResponseRedirect
-from django.contrib.admin.util import unquote
+from django.contrib.admin.utils import unquote
 
 from feincms.admin import tree_editor
 from .models import Menu, MenuItem
